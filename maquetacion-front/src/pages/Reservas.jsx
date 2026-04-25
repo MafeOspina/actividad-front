@@ -15,7 +15,7 @@ const Reservas = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Requisito: Capturar valores y mostrar en consola/localStorage
+    
     console.log("Datos de la reserva:", formData);
     localStorage.setItem('ultimaReserva', JSON.stringify(formData));
     alert("¡Solicitud enviada con éxito! (Datos guardados en LocalStorage)");

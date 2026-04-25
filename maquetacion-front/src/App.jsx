@@ -4,6 +4,7 @@ import Footer from './components/Layout/Footer';
 import Home from './pages/Home';
 import Galeria from './pages/Galeria';
 import Reservas from './pages/Reservas';
+import Filosofia from './pages/Filosofia';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/galeria" element={<Galeria />} />
           <Route path="/reservas" element={<Reservas />} />
-          {/* Ruta por defecto */}
+          <Route path="/filosofia" element={<Filosofia />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
